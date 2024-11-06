@@ -1,0 +1,62 @@
+{
+  "contractName": "Notes",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_content",
+          "type": "string"
+        }
+      ],
+      "name": "createNote",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_id",
+          "type": "uint256"
+        }
+      ],
+      "name": "getNote",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        },
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "notesCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+"networks": {
+  "5777": {
+    "address": "0xABCDEF1234567890ABCDEF1234567890ABCDEF12", 
+    "transactionHash": "0x0000000000000000000000000000000000000000000000000000000000000000" 
+    } 
+  }
+}
